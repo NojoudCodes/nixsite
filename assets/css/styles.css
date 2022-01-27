@@ -1,0 +1,125 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+/* Global */
+
+.different-color {
+  color: #fca311;
+}
+
+.btn-primary {
+  background-color: #fca311;
+  border: 1px solid #fca311;
+  color: #000;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.btn-primary:hover {
+  background-color: #14213d;
+  border: 1px solid #14213d;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  border: 1px solid #fca311;
+  color: #fca311;
+}
+
+.btn-outline-primary:hover {
+  background-color: #14213d;
+  border: 1px solid #14213d;
+  color: #fff;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/img/hero.jpg") top / cover no-repeat;
+  height: 100vh;
+}
+
+.hero .navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 15px;
+}
+
+.hero .navbar-dark .navbar-nav .nav-link:hover {
+  color: #fca311;
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+}
+
+.hero-info .col,
+.hero-info .col-lg-7 {
+  height: 80vh;
+}
+
+/* About */
+
+#about {
+  background-color: #e5e5e5;
+}
+
+/* Services */
+
+#services {
+  background-color: #000;
+  color: #fff;
+}
+
+#services i {
+  border: 1px solid #fca311;
+  border-radius: 50%;
+  color: #fca311;
+  display: inline-block;
+  font-size: 2.5rem;
+  width: 80px;
+  height: 80px;
+  padding: 18px;
+}
+
+/* Portfolio */
+
+#portfolio {
+  background-color: #fff;
+}
+
+/* Count */
+
+#count {
+  background-color: #000;
+  color: #fca311;
+}
+
+/* Contact */
+
+#contact {
+  background-color: #fff;
+}
+
+/* Footer */
+
+footer {
+  background-color: #14213d;
+}
+
+footer a,
+footer i {
+  color: #e5e5e5;
+  font-size: 16px;
+}
+
+footer a:hover,
+footer i:hover {
+  color: #fca311;
+}
